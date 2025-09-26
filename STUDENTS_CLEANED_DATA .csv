@@ -1,0 +1,202 @@
+student_id,age,gender,city,course_stream,study_hours_per_week,attendance_rate,prior_gpa_10pt,has_internet,device_type,parental_education,test_score,admission_date,fee_paid_inr,scholarship,comments
+s0001,24,female,mumbai,mca,11.2,46.2,6.88,nan,nan,phd,58.4,2023-08-11,63952.0,partial,nan
+s0002,21,nan,mumbai,bba,14.9,64.3,5.87,no,mobile,nan,85.8,,62085.0,yes,late enrollment
+s0003,24,female,bengaluru,nan,13.4,57.7,,no,tablet,nan,89.3,,55598.0,yes,transferred from another program
+s0004,28,female,remote,me,8.9,64.6,7.27,no,laptop,undergrad,59.4,2024-02-02,54627.0,partial,good coder
+s0005,21,male,bengaluru,ee,11.0,52.2,7.22,nan,desktop,phd,55.5,,,no,nan
+s0006,21,male,bengaluru,mca,9.5,98.4,7.17,no,tablet,high school,75.1,,69382.0,nan,good coder
+s0007,120,female,delhi,mca,9.1,80.6,7.44,yes,laptop,undergrad,,,64349.0,no,needs scholarship support
+s0008,25,male,pune,me,16.2,85.7,7.03,yes,tablet,nan,77.5,,57035.0,no,prefers evening classes
+s0009,20,male,remote,nan,13.8,92.4,6.51,yes,laptop,nan,71.0,2025-03-05,66174.0,no,late enrollment
+s0010,24,nan,kolkata,nan,8.5,74.9,6.54,nan,mobile,postgrad,45.3,,37212.0,no,nan
+s0011,20,male,chennai,bba,16.5,50.2,7.16,no,laptop,high school,91.2,,69190.0,nan,transferred from another program
+s0012,20,nan,mumbai,mca,13.5,77.2,6.55,nan,laptop,phd,94.9,,46082.0,yes,nan
+s0013,23,male,kolkata,nan,16.1,80.2,6.34,yes,desktop,high school,58.8,2023-11-08,57100.0,nan,nan
+s0014,16,nan,mumbai,cs,15.1,89.7,7.33,yes,tablet,nan,62.2,,51043.0,partial,late enrollment
+s0015,16,female,delhi,bba,7.9,70.9,6.89,no,laptop,phd,72.3,,49643.0,no,needs scholarship support
+s0016,20,male,mumbai,bba,9.2,52.7,9.0,no,nan,high school,73.0,,69287.0,nan,needs scholarship support
+s0017,18,prefer not to say,bengaluru,ee,15.7,62.0,4.02,nan,laptop,nan,77.9,,56258.0,partial,nan
+s0018,23,female,remote,mca,15.1,66.8,8.51,no,desktop,undergrad,98.2,2023-04-03,62772.0,nan,prefers evening classes
+s0019,19,male,chennai,nan,11.9,83.8,8.7,yes,mobile,phd,65.3,,59625.0,no,needs scholarship support
+s0020,17,other,hyderabad,nan,,79.2,4.71,yes,laptop,nan,56.0,2023-06-05,63816.0,no,nan
+s0021,28,female,mumbai,mba,18.4,66.4,6.79,no,nan,undergrad,47.3,,,partial,prefers evening classes
+s0022,21,male,kolkata,bsc,9.0,104.2,6.75,no,desktop,high school,57.0,,,nan,late enrollment
+s0023,22,female,bengaluru,bsc,14.7,81.3,5.51,yes,laptop,phd,67.5,,67970.0,no,transferred from another program
+s0024,17,other,hyderabad,bsc,11.0,59.2,6.27,yes,desktop,postgrad,94.9,,,partial,late enrollment
+s0025,20,male,chennai,ee,10.9,51.1,5.87,no,tablet,postgrad,60.2,,47547.0,nan,nan
+s0026,22,male,hyderabad,nan,17.5,54.2,9.3,nan,desktop,nan,71.4,,56575.0,nan,transferred from another program
+s0027,18,female,bengaluru,bsc,,59.8,8.32,yes,laptop,nan,67.8,,72006.0,partial,nan
+s0028,23,female,remote,me,16.1,54.6,,no,laptop,phd,-5.0,,66802.0,nan,late enrollment
+s0029,120,nan,remote,ece,18.5,56.2,8.07,nan,desktop,nan,,,57211.0,nan,good coder
+s0030,21,female,pune,bba,12.1,62.1,5.85,no,tablet,high school,60.0,,57206.0,no,good coder
+s0031,20,male,remote,nan,15.4,55.4,6.57,yes,nan,postgrad,60.7,,57427.0,no,late enrollment
+s0032,29,male,pune,nan,10.4,98.8,7.79,nan,laptop,nan,83.7,,76614.0,no,needs scholarship support
+s0033,22,female,hyderabad,mba,13.6,49.8,5.73,yes,nan,nan,78.2,,,partial,needs scholarship support
+s0034,18,male,delhi,ece,11.3,76.5,8.06,yes,tablet,phd,95.7,,,yes,transferred from another program
+s0035,25,prefer not to say,kolkata,ee,12.5,69.6,6.91,yes,mobile,postgrad,76.8,,68242.0,nan,transferred from another program
+s0036,17,nan,kolkata,bba,15.0,103.9,6.75,yes,laptop,nan,62.6,,61910.0,partial,good coder
+s0037,23,female,hyderabad,ee,7.9,51.7,8.05,no,mobile,nan,76.9,,,yes,prefers evening classes
+s0038,16,female,mumbai,ee,22.5,68.9,7.73,yes,laptop,phd,84.6,,58429.0,yes,late enrollment
+s0039,17,female,mumbai,me,7.0,103.2,6.77,yes,tablet,nan,80.3,,59427.0,partial,prefers evening classes
+s0040,23,nan,remote,cs,5.9,96.9,,yes,laptop,high school,75.6,2023-10-05,59702.0,yes,transferred from another program
+s0041,25,female,kolkata,cs,17.8,94.0,5.9,yes,mobile,nan,84.0,,65821.0,no,prefers evening classes
+s0042,23,male,kolkata,ee,16.0,60.5,7.94,no,tablet,high school,85.5,,60416.0,partial,nan
+s0043,22,male,pune,bsc,15.1,55.3,7.91,yes,nan,undergrad,88.7,2024-02-05,65861.0,nan,nan
+s0044,21,female,delhi,nan,15.1,85.1,6.83,no,nan,nan,77.7,,59354.0,no,good coder
+s0045,16,male,bengaluru,ece,11.9,100.8,7.59,no,mobile,nan,65.5,,60629.0,nan,good coder
+s0046,19,male,mumbai,bsc,7.5,78.4,5.7,no,mobile,postgrad,70.2,,44014.0,yes,nan
+s0047,20,female,kolkata,mca,12.4,79.3,8.31,no,laptop,undergrad,86.1,,,no,transferred from another program
+s0048,26,female,pune,nan,8.6,61.8,6.98,yes,nan,nan,55.7,,62772.0,nan,late enrollment
+s0049,23,male,chennai,ee,16.9,91.2,6.57,nan,laptop,high school,73.5,,67984.0,partial,late enrollment
+s0050,16,female,pune,mca,11.3,56.2,8.46,no,mobile,phd,62.1,2023-04-03,36830.0,yes,needs scholarship support
+s0051,23,female,mumbai,bsc,,64.4,6.35,no,laptop,high school,68.4,,76707.0,nan,nan
+s0052,21,female,mumbai,mca,10.4,70.5,5.51,no,tablet,nan,87.2,,58883.0,yes,nan
+s0053,19,prefer not to say,pune,ee,14.1,75.5,5.33,no,nan,nan,70.9,,68865.0,nan,nan
+s0054,24,male,bengaluru,me,9.2,59.5,7.93,no,tablet,high school,68.7,,51681.0,partial,nan
+s0055,26,other,hyderabad,cs,7.9,51.9,5.66,no,laptop,phd,47.6,,,no,late enrollment
+s0056,26,male,mumbai,ece,13.2,81.6,9.31,no,laptop,undergrad,79.2,,51573.0,nan,transferred from another program
+s0057,19,male,pune,mca,13.2,62.3,4.7,nan,desktop,nan,77.7,,55010.0,yes,good coder
+s0058,21,male,kolkata,ee,9.5,79.9,9.24,yes,laptop,postgrad,,,75312.0,partial,late enrollment
+s0059,23,female,pune,me,9.6,54.3,7.45,yes,nan,high school,63.4,2024-09-04,58475.0,no,nan
+s0060,26,female,delhi,nan,13.2,73.9,7.08,yes,nan,high school,,,61739.0,yes,nan
+s0061,20,other,hyderabad,bsc,4.8,77.0,6.55,no,laptop,postgrad,71.7,,66961.0,partial,good coder
+s0062,21,nan,chennai,cs,5.0,48.1,7.68,no,laptop,high school,91.7,,63965.0,yes,transferred from another program
+s0063,18,male,bengaluru,nan,,65.2,7.15,no,tablet,postgrad,66.6,,61203.0,partial,transferred from another program
+s0064,17,other,remote,ee,10.9,53.1,8.52,no,nan,postgrad,72.2,,62920.0,no,transferred from another program
+s0065,25,prefer not to say,chennai,ece,13.6,48.8,7.34,yes,laptop,postgrad,77.1,,79227.0,no,nan
+s0066,27,female,hyderabad,bsc,19.4,104.4,7.38,no,desktop,phd,70.8,,59539.0,yes,nan
+s0067,22,female,hyderabad,me,16.3,64.3,6.76,yes,mobile,undergrad,61.3,,61609.0,partial,late enrollment
+s0068,26,nan,nan,bsc,11.2,93.6,7.13,yes,nan,undergrad,70.9,,68405.0,nan,transferred from another program
+s0069,23,male,chennai,nan,11.9,60.3,7.57,no,laptop,nan,84.1,,68844.0,no,needs scholarship support
+s0070,20,male,kolkata,nan,7.0,85.9,5.15,yes,mobile,phd,52.6,,69496.0,nan,transferred from another program
+s0071,23,male,hyderabad,nan,11.9,90.6,5.58,yes,tablet,nan,70.0,2024-04-12,65110.0,nan,transferred from another program
+s0072,28,male,pune,mba,10.6,80.7,8.09,yes,desktop,nan,57.5,,50856.0,yes,good coder
+s0073,22,male,chennai,bsc,13.6,73.3,7.41,no,nan,undergrad,85.9,,73067.0,yes,prefers evening classes
+s0074,28,male,remote,nan,7.9,69.7,6.98,no,mobile,undergrad,45.2,2023-06-04,50829.0,yes,good coder
+s0075,16,female,hyderabad,nan,14.6,65.9,7.22,yes,laptop,undergrad,59.6,,62421.0,partial,needs scholarship support
+s0076,25,female,pune,mca,19.7,100.8,7.62,yes,mobile,high school,73.7,,53966.0,no,late enrollment
+s0077,22,female,kolkata,nan,11.5,94.8,6.55,yes,laptop,nan,91.5,,59487.0,no,needs scholarship support
+s0078,21,male,delhi,bsc,14.0,102.9,6.27,no,mobile,phd,67.0,,62630.0,nan,prefers evening classes
+s0079,22,male,kolkata,me,15.5,52.5,7.44,no,tablet,nan,59.7,,62571.0,yes,needs scholarship support
+s0080,16,male,remote,bsc,10.0,88.9,6.03,yes,mobile,nan,96.2,,,partial,transferred from another program
+s0081,21,prefer not to say,hyderabad,bsc,13.1,101.3,7.69,yes,tablet,undergrad,46.3,,72910.0,no,needs scholarship support
+s0082,23,female,remote,bba,12.1,55.9,5.16,yes,tablet,phd,35.0,,63628.0,partial,late enrollment
+s0083,28,prefer not to say,chennai,ee,12.5,49.0,8.43,no,laptop,nan,74.6,,58047.0,yes,transferred from another program
+s0084,20,other,mumbai,bba,8.1,89.5,7.77,yes,laptop,undergrad,60.5,,67713.0,yes,transferred from another program
+s0085,19,nan,hyderabad,nan,12.1,79.5,7.51,no,desktop,undergrad,52.7,,,no,transferred from another program
+s0086,20,other,mumbai,bsc,14.5,95.5,8.38,no,tablet,phd,78.6,2023-08-06,,nan,good coder
+s0087,25,male,pune,ee,19.3,53.4,9.2,yes,mobile,nan,71.7,,64779.0,nan,nan
+s0088,23,nan,delhi,bba,16.8,92.7,8.42,yes,laptop,postgrad,59.5,,,yes,nan
+s0089,20,nan,bengaluru,bsc,22.8,57.1,4.99,no,mobile,phd,48.8,,57619.0,yes,late enrollment
+s0090,24,female,remote,ece,8.2,54.8,5.66,yes,tablet,postgrad,81.1,,,nan,nan
+s0091,22,female,kolkata,bba,16.4,54.9,6.45,nan,laptop,nan,77.8,2025-06-04,58800.0,yes,needs scholarship support
+s0092,26,female,delhi,ee,12.9,93.9,7.23,no,mobile,high school,66.5,,61005.0,no,prefers evening classes
+s0093,19,male,hyderabad,bba,22.9,84.9,,no,nan,phd,95.7,,,no,nan
+s0094,21,male,mumbai,mba,8.0,76.4,6.33,no,laptop,postgrad,51.9,,60125.0,partial,nan
+s0095,21,nan,kolkata,mba,7.8,66.5,7.42,no,mobile,nan,45.1,,51230.0,nan,nan
+s0096,16,nan,mumbai,nan,9.0,97.6,6.29,no,laptop,nan,,,48480.0,yes,needs scholarship support
+s0097,23,prefer not to say,chennai,ece,1.4,68.5,6.47,no,tablet,undergrad,67.3,,,partial,needs scholarship support
+s0098,23,female,mumbai,me,9.4,94.0,5.51,yes,tablet,high school,,,53224.0,no,nan
+s0099,22,male,chennai,me,8.2,71.3,6.09,no,tablet,phd,64.4,2024-02-08,52069.0,nan,prefers evening classes
+s0100,21,female,pune,ee,12.8,67.6,5.58,yes,laptop,postgrad,73.3,,42773.0,no,nan
+s0101,17,other,kolkata,mca,13.7,72.8,6.03,nan,mobile,nan,49.2,,,yes,needs scholarship support
+s0102,20,other,kolkata,me,,63.1,8.46,yes,nan,postgrad,89.7,,49415.0,partial,nan
+s0103,21,female,bengaluru,ee,16.8,89.9,6.06,yes,laptop,nan,66.8,,73136.0,yes,late enrollment
+s0104,19,female,hyderabad,ece,9.1,75.2,,yes,laptop,phd,84.8,,68079.0,yes,nan
+s0105,21,female,chennai,mca,7.5,58.9,7.79,yes,nan,nan,73.1,,54495.0,nan,transferred from another program
+s0106,24,female,bengaluru,mca,14.5,99.0,7.42,nan,mobile,postgrad,74.9,,78019.0,nan,nan
+s0107,29,prefer not to say,mumbai,mba,5.4,68.0,6.17,no,mobile,phd,76.5,,67854.0,yes,nan
+s0108,23,nan,mumbai,nan,21.2,77.6,8.04,yes,laptop,postgrad,74.7,,57401.0,nan,nan
+s0109,23,female,bengaluru,bsc,17.9,99.4,6.51,no,desktop,undergrad,77.6,,,partial,nan
+s0110,22,nan,kolkata,mca,9.7,82.5,7.35,yes,nan,phd,87.9,,78328.0,partial,prefers evening classes
+s0111,16,male,mumbai,cs,3.4,52.0,,no,tablet,phd,70.9,,48883.0,yes,good coder
+s0112,22,female,remote,ee,18.8,101.4,7.08,yes,nan,high school,78.6,2023-06-10,46837.0,partial,transferred from another program
+s0113,22,nan,pune,mca,11.4,82.7,8.58,yes,mobile,undergrad,66.7,2024-08-11,68181.0,yes,good coder
+s0114,31,female,pune,mca,18.2,65.1,6.36,no,laptop,phd,89.6,2024-12-05,79518.0,partial,good coder
+s0115,21,male,remote,nan,4.0,53.4,7.16,yes,mobile,nan,57.9,,71074.0,no,good coder
+s0116,23,female,bengaluru,cs,9.0,92.6,9.32,no,laptop,postgrad,95.0,,64511.0,yes,nan
+s0117,22,female,remote,nan,12.0,82.2,6.45,yes,desktop,nan,67.4,,64758.0,partial,transferred from another program
+s0118,18,female,chennai,mca,12.2,77.0,,yes,tablet,postgrad,46.5,,66827.0,no,good coder
+s0119,26,other,chennai,bsc,9.7,98.6,8.05,yes,nan,nan,69.9,,66071.0,yes,late enrollment
+s0120,25,prefer not to say,bengaluru,cs,15.1,92.3,6.53,yes,desktop,postgrad,57.8,,62250.0,partial,good coder
+s0121,25,male,remote,mba,6.7,54.1,7.96,yes,tablet,high school,,,60834.0,partial,prefers evening classes
+s0122,19,female,chennai,bba,11.3,63.7,8.37,no,mobile,nan,58.2,,59499.0,no,nan
+s0123,27,nan,kolkata,mca,12.6,59.9,7.95,no,laptop,phd,61.3,,53968.0,nan,late enrollment
+s0124,17,other,remote,mca,14.6,89.6,5.32,no,mobile,postgrad,39.7,,57755.0,nan,needs scholarship support
+s0125,24,nan,kolkata,nan,15.6,47.0,6.33,nan,laptop,high school,61.2,,46456.0,no,nan
+s0126,30,female,chennai,nan,6.4,79.2,,nan,laptop,nan,31.6,,59213.0,no,prefers evening classes
+s0127,18,female,pune,nan,4.3,90.7,7.11,no,laptop,nan,44.2,,52091.0,yes,transferred from another program
+s0128,20,nan,chennai,ee,18.4,97.6,7.94,yes,nan,nan,79.4,,51171.0,nan,late enrollment
+s0129,22,male,kolkata,bsc,13.7,65.5,7.41,nan,desktop,high school,79.8,,61439.0,yes,nan
+s0130,20,other,delhi,ee,8.3,94.3,5.6,yes,laptop,nan,74.4,,71136.0,partial,needs scholarship support
+s0131,16,male,hyderabad,bba,19.8,51.6,7.66,yes,desktop,nan,53.5,,,no,nan
+s0132,22,other,mumbai,mca,12.6,95.8,7.93,yes,tablet,phd,67.3,,47436.0,yes,nan
+s0133,18,nan,remote,bsc,17.9,52.6,7.87,no,nan,postgrad,67.9,,52083.0,no,prefers evening classes
+s0134,24,nan,delhi,cs,12.3,68.8,8.5,no,laptop,undergrad,50.6,,67526.0,yes,transferred from another program
+s0135,19,male,chennai,nan,22.3,92.8,8.2,no,nan,nan,90.6,,,partial,good coder
+s0136,28,male,pune,mba,20.8,54.0,7.75,yes,mobile,postgrad,81.2,,58203.0,partial,good coder
+s0137,19,prefer not to say,bengaluru,mca,10.8,58.8,7.12,no,laptop,undergrad,64.7,,64400.0,nan,prefers evening classes
+s0138,21,male,chennai,me,16.9,88.3,5.21,yes,desktop,nan,68.4,2024-12-08,52253.0,nan,transferred from another program
+s0139,25,female,pune,bsc,15.2,88.2,7.72,yes,laptop,undergrad,71.1,2024-10-08,60843.0,partial,nan
+s0140,17,male,hyderabad,me,18.8,83.5,7.45,nan,mobile,nan,37.4,,49328.0,yes,nan
+s0141,23,female,chennai,nan,7.2,86.6,7.53,no,laptop,postgrad,64.3,,55189.0,no,nan
+s0142,27,male,kolkata,nan,15.4,77.6,5.67,yes,laptop,nan,57.8,,62558.0,partial,needs scholarship support
+s0143,16,male,bengaluru,cs,17.3,60.1,5.9,nan,desktop,nan,53.0,,47256.0,partial,nan
+s0144,23,male,pune,mca,3.2,65.7,8.46,yes,mobile,nan,63.8,,,yes,nan
+s0145,23,female,pune,nan,6.1,55.9,7.15,no,laptop,nan,95.0,,59843.0,partial,late enrollment
+s0146,25,female,pune,nan,1.8,99.5,8.02,no,tablet,undergrad,77.6,2023-01-04,64420.0,partial,nan
+s0147,17,prefer not to say,hyderabad,cs,10.7,80.0,7.23,nan,nan,nan,59.4,,61791.0,yes,nan
+s0148,17,female,chennai,ece,15.6,69.1,7.24,yes,laptop,high school,76.6,2023-07-09,70913.0,partial,prefers evening classes
+s0149,24,nan,hyderabad,mca,19.5,72.7,8.33,no,tablet,nan,89.0,,61002.0,nan,prefers evening classes
+s0150,23,other,remote,me,12.4,101.8,6.58,no,mobile,nan,-5.0,,,nan,good coder
+s0151,23,other,mumbai,bsc,20.1,54.2,7.32,yes,mobile,high school,68.9,,60978.0,nan,nan
+s0152,23,prefer not to say,mumbai,me,60.0,80.2,6.65,no,mobile,postgrad,58.3,,64346.0,nan,nan
+s0153,19,nan,remote,cs,3.5,75.4,6.68,no,desktop,phd,78.5,,,partial,needs scholarship support
+s0154,23,other,chennai,bba,11.7,81.7,6.83,nan,mobile,high school,73.9,,60325.0,no,nan
+s0155,23,female,kolkata,mca,13.9,46.1,7.47,yes,nan,nan,81.4,,54384.0,nan,nan
+s0156,19,nan,hyderabad,mba,11.8,97.3,6.63,yes,desktop,postgrad,77.5,,54697.0,nan,needs scholarship support
+s0157,29,female,bengaluru,ee,1.7,100.9,8.71,yes,mobile,nan,83.7,,48779.0,partial,nan
+s0158,24,male,pune,bsc,11.6,78.9,6.13,no,desktop,undergrad,60.0,,73997.0,partial,late enrollment
+s0159,17,nan,pune,nan,5.5,86.8,6.98,yes,nan,high school,,,50049.0,yes,nan
+s0160,24,male,chennai,mba,15.3,100.3,6.67,yes,nan,postgrad,71.0,,54457.0,nan,transferred from another program
+s0161,18,female,kolkata,mca,,87.4,8.94,nan,laptop,postgrad,99.1,,54253.0,yes,needs scholarship support
+s0162,25,female,mumbai,nan,7.3,54.2,7.44,no,desktop,nan,57.7,,67159.0,nan,good coder
+s0163,26,male,mumbai,mca,9.4,79.6,,yes,laptop,phd,94.0,,57640.0,no,nan
+s0164,-1,prefer not to say,pune,bba,6.7,81.4,5.42,yes,tablet,undergrad,,2023-01-07,69982.0,partial,good coder
+s0165,26,nan,chennai,ece,11.7,70.4,7.52,nan,mobile,undergrad,58.2,,,partial,nan
+s0166,24,prefer not to say,hyderabad,bsc,16.8,89.2,8.27,yes,tablet,undergrad,60.7,,,yes,nan
+s0167,25,female,mumbai,cs,7.1,101.1,7.3,no,nan,nan,63.2,,53317.0,yes,nan
+s0168,29,male,nan,nan,14.5,100.5,8.48,nan,tablet,postgrad,74.4,2023-04-06,,partial,prefers evening classes
+s0169,21,male,kolkata,cs,9.3,72.1,6.58,yes,laptop,nan,75.8,2023-11-03,50499.0,partial,good coder
+s0170,19,female,mumbai,mba,8.0,51.8,8.89,no,tablet,nan,59.4,,,partial,needs scholarship support
+s0171,19,male,mumbai,ee,11.5,104.1,9.96,no,laptop,postgrad,67.6,,65070.0,nan,late enrollment
+s0172,19,male,delhi,ece,6.8,95.3,6.76,no,tablet,undergrad,,,,nan,nan
+s0173,22,nan,mumbai,cs,9.2,52.5,6.67,yes,nan,postgrad,,,58518.0,no,nan
+s0174,23,male,remote,cs,6.0,100.3,8.94,nan,nan,phd,74.5,,58961.0,nan,needs scholarship support
+s0175,23,male,bengaluru,ee,21.8,97.2,9.1,yes,laptop,postgrad,68.6,,60350.0,partial,late enrollment
+s0176,25,male,remote,ee,12.2,76.1,6.57,no,mobile,nan,69.8,,,nan,transferred from another program
+s0177,22,female,chennai,cs,,80.5,6.7,yes,desktop,postgrad,77.2,,67711.0,yes,late enrollment
+s0178,28,male,chennai,nan,13.1,68.9,6.86,yes,mobile,high school,52.7,,77684.0,partial,nan
+s0179,21,male,hyderabad,me,60.0,48.3,5.59,yes,nan,phd,64.1,,,nan,good coder
+s0180,32,female,remote,ee,10.9,65.1,6.1,nan,mobile,high school,43.0,,,partial,good coder
+s0181,24,male,remote,me,15.1,93.2,6.0,yes,tablet,undergrad,74.0,,59294.0,yes,good coder
+s0182,19,male,remote,bsc,15.8,45.3,,no,tablet,undergrad,77.7,,,yes,transferred from another program
+s0183,18,female,kolkata,ece,9.3,65.0,7.16,yes,nan,nan,60.8,,53571.0,nan,prefers evening classes
+s0184,24,nan,mumbai,nan,,68.9,7.48,nan,nan,nan,91.6,2023-05-03,73113.0,partial,nan
+s0185,21,male,bengaluru,nan,10.6,77.2,9.06,no,mobile,nan,49.6,,73422.0,no,nan
+s0186,25,female,hyderabad,bsc,0.5,100.2,6.0,no,mobile,phd,46.0,,55571.0,yes,nan
+s0187,24,prefer not to say,remote,bba,4.4,65.8,8.38,no,tablet,nan,71.4,,64552.0,no,nan
+s0188,22,male,remote,mba,18.8,65.8,6.94,yes,desktop,postgrad,83.7,,73027.0,nan,transferred from another program
+s0189,19,nan,delhi,me,20.2,89.3,7.14,no,laptop,high school,93.3,,56967.0,yes,good coder
+s0190,120,other,hyderabad,nan,10.8,72.1,8.01,yes,desktop,phd,61.1,,,no,nan
+s0191,20,prefer not to say,remote,nan,14.9,58.5,5.85,no,nan,high school,84.2,,55347.0,yes,nan
+s0192,25,male,hyderabad,ece,13.6,72.1,7.66,no,mobile,postgrad,67.4,,51882.0,no,transferred from another program
+s0193,23,prefer not to say,mumbai,me,27.4,53.5,7.4,no,desktop,nan,65.4,2024-01-02,54806.0,partial,transferred from another program
+s0194,17,female,delhi,bba,17.6,55.6,7.79,yes,mobile,high school,81.3,,50208.0,partial,good coder
+s0195,23,male,hyderabad,ece,11.4,74.9,7.55,yes,laptop,phd,77.8,,60273.0,nan,good coder
+s0196,23,female,bengaluru,nan,7.2,70.1,,no,tablet,postgrad,44.4,,53840.0,yes,transferred from another program
+s0197,19,female,bengaluru,cs,4.0,99.9,6.43,yes,laptop,nan,90.1,,61870.0,no,nan
+s0198,23,female,chennai,bba,13.0,66.7,6.56,no,mobile,nan,88.7,2023-07-04,47553.0,nan,needs scholarship support
+s0199,22,male,nan,nan,8.2,79.8,6.45,no,laptop,nan,58.6,,62647.0,partial,good coder
+s0200,18,female,delhi,mca,4.9,82.9,6.53,no,mobile,postgrad,73.9,,66668.0,partial,nan
+s0182,19,male,nan,bsc,15.8,45.3,,no,tablet,undergrad,77.7,,,yes,transferred from another program
