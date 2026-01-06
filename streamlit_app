@@ -1,0 +1,180 @@
+%%writefile app.py
+import streamlit as st
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# -------------------------------------------------
+# PAGE CONFIG
+# -------------------------------------------------
+st.set_page_config(page_title="SupplySyncAI – Inventory EDA", layout="wide")
+
+st.markdown("""
+<div style="
+background-color:#2E86C1;
+padding:20px;
+text-align:center;
+color:white;
+border-radius:6px;
+font-size:28px;
+font-weight:600;">
+SupplySyncAI
+<div style="font-size:14px; font-weight:normal; margin-top:4px;">
+Inventory Intelligence & Analytics Platform
+</div>
+</div>
+""", unsafe_allow_html=True)
+
+# -------------------------------------------------
+# SESSION STATE
+# -------------------------------------------------
+if "df" not in st.session_state:
+    st.session_state.df = None
+
+# -------------------------------------------------
+# 1. LOAD DATA
+# -------------------------------------------------
+st.header("📥 1. Load Dataset")
+
+uploaded_file = st.file_uploader("Upload inventory CSV file", type=["csv"])
+
+if uploaded_file:
+    df = pd.read_csv(uploaded_file)
+    df = df.loc[:, ~df.columns.str.contains("^Unnamed")]
+    st.session_state.df = df
+    st.success("Dataset loaded successfully")
+
+df = st.session_state.df
+
+if df is None:
+    st.info("Please upload a dataset to continue.")
+    st.stop()
+
+# -------------------------------------------------
+# 2. DATA PREVIEW
+# -------------------------------------------------
+st.header("🔍 2. Data Preview")
+st.dataframe(df.head(20), use_container_width=True)
+st.info(f"Rows: {df.shape[0]} | Columns: {df.shape[1]}")
+
+# -------------------------------------------------
+# 3. DATA QUALITY OVERVIEW
+# -------------------------------------------------
+with st.expander("📊 3. Data Quality Overview"):
+    st.subheader("Missing Values (%)")
+    st.dataframe((df.isnull().mean() * 100).sort_values(ascending=False))
+
+    st.subheader("Duplicate Rows")
+    st.write(df.duplicated().sum())
+
+    st.subheader("Data Types")
+    st.dataframe(df.dtypes.value_counts())
+
+# -------------------------------------------------
+# 4. PREPROCESSING
+# -------------------------------------------------
+with st.expander("🧹 4. Preprocessing"):
+    remove_dupes = st.checkbox("Remove duplicate rows")
+    fill_nulls = st.checkbox("Fill missing values")
+
+    processed_df = df.copy()
+
+    if remove_dupes:
+        processed_df = processed_df.drop_duplicates()
+
+    if fill_nulls:
+        num_cols = processed_df.select_dtypes(include=np.number).columns
+        obj_cols = processed_df.select_dtypes(include="object").columns
+        processed_df[num_cols] = processed_df[num_cols].fillna(0)
+        processed_df[obj_cols] = processed_df[obj_cols].fillna("Unknown")
+
+    st.session_state.df = processed_df
+    df = processed_df
+
+    st.dataframe(df.head(10), use_container_width=True)
+
+# -------------------------------------------------
+# 5. INVENTORY KPIs
+# -------------------------------------------------
+with st.expander("📦 5. Inventory KPIs"):
+    st.metric("Total Stock Value", f"{df['stock_value'].sum():,.2f}")
+    st.metric("Avg Fill Rate (%)", f"{df['fill_rate_pct'].mean():.2f}")
+    st.metric("Avg Stockout (%)", f"{df['stockout_pct'].mean():.2f}")
+    st.metric("Avg Inventory Turnover", f"{df['inventory_turnover'].mean():.2f}")
+    st.metric("Avg Model Confidence", f"{df['model_confidence_score'].mean():.2f}")
+
+# -------------------------------------------------
+# 6. PRODUCT & STORE ANALYSIS
+# -------------------------------------------------
+with st.expander("🏪 6. Product & Store Analysis"):
+    st.subheader("Top Products by Stock Value")
+    st.dataframe(
+        df.groupby("product_id")["stock_value"]
+        .sum()
+        .sort_values(ascending=False)
+        .head(10)
+    )
+
+    st.subheader("Top Stores by Stock Value")
+    st.dataframe(
+        df.groupby("store_id")["stock_value"]
+        .sum()
+        .sort_values(ascending=False)
+        .head(10)
+    )
+
+# -------------------------------------------------
+# 7. LOGISTICS & TRANSFERS
+# -------------------------------------------------
+with st.expander("🚚 7. Logistics & Transfers"):
+    st.subheader("Delivery & Route Metrics")
+    st.dataframe(
+        df[[
+            "delivery_time_mins",
+            "fuel_cost",
+            "route_efficiency_score",
+            "transfer_qty",
+            "transfer_cost"
+        ]].describe()
+    )
+
+# -------------------------------------------------
+# 8. CORRELATION ANALYSIS
+# -------------------------------------------------
+with st.expander("🔗 8. Correlation Analysis"):
+    num_df = df.select_dtypes(include=np.number)
+
+    if num_df.shape[1] >= 2:
+        corr = num_df.corr()
+        fig, ax = plt.subplots(figsize=(6,4))
+        sns.heatmap(corr, cmap="coolwarm", linewidths=0.5, ax=ax)
+        ax.set_title("Numeric Feature Correlation")
+        st.pyplot(fig)
+    else:
+        st.info("Not enough numeric columns for correlation.")
+
+# -------------------------------------------------
+# 9. SUMMARY
+# -------------------------------------------------
+with st.expander("🧾 9. Summary Report"):
+    summary = {
+        "Rows": df.shape[0],
+        "Columns": df.shape[1],
+        "Numeric Columns": df.select_dtypes(include=np.number).shape[1],
+        "Total Stock Value": df["stock_value"].sum()
+    }
+    st.json(summary)
+
+st.markdown("""
+<br>
+<div style="
+background-color:#2E86C1;
+padding:12px;
+text-align:center;
+color:white;
+border-radius:6px;
+font-size:14px;">
+© 2025 SupplySyncAI – Inventory Intelligence Platform
+</div>
+""", unsafe_allow_html=True)
